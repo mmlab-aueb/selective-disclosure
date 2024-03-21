@@ -19,7 +19,7 @@ A disclosure represents a member of the JSON object. For composite members, i.e.
 whose value is a JSON object, a disclosure is constructed for all sub-members, following 
 a depth-first approach. A disclosure is composed of two parts: the disclosure name 
 whose value is the [JSON pointer](https://datatracker.ietf.org/doc/html/rfc6901) to 
-the corresponding member, i.e., a string representing the ``path'' to that member in the
+the corresponding member, i.e., a string representing the "path" to that member in the
 JSON-LD object, and the disclosure value which contains the corresponding member value. 
 
 As an example consider the following JSON object
