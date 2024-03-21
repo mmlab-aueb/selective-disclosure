@@ -9,8 +9,8 @@ proof.
 
 ## Solution Overview
 Signing a JSON object using our solution is a two steps process. The first step
-is ``object decomposition intro a list of disclosures'' and the second step is
-``disclosures signing''. Disclosures signing can be implemented either by signing 
+is **object decomposition intro a list of disclosures** and the second step is
+**disclosures signing**. Disclosures signing can be implemented either by signing 
 salted hashes of the disclosures or by using BBS+ signatures.
 
 ### Object decomposition
@@ -102,8 +102,14 @@ includes 100 attributes.
 python3 artifact_gen.py
 ```
 
-To run the benchmark script for the hash-based approach execute the `hash.py' script
+To run the benchmark script for the hash-based approach execute the `hash.py` script
 
 ```bash
 python3 hash.py
+```
+
+To run the benchmark script for the bbs+-based approach execute the `bbs.py` script
+
+```bash
+python3 bbs.py
 ```
