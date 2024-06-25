@@ -92,7 +92,7 @@ First execute these commands to install the required python3 packages:
 ```bash
 python3 -m pip install secrets
 python3 -m pip install jwcrypto
-python3 -m pip install jwcryptoursa-bbs-signatures
+python3 -m pip install ursa-bbs-signatures
 ```
 
 Then, run the `artifact_gen.py` script which generates an moke json object that 
